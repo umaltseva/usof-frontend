@@ -1,0 +1,84 @@
+/* custom-datepicker.css */
+
+/* Styles for the custom header of the date picker */
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #f8f9fa; /* Light grey background that matches the Quartz theme */
+  border-bottom: 1px solid #eaeaea; /* Subtle border for separation */
+}
+
+.custom-header-btn {
+  background: none;
+  border: none;
+  color: #007bff; /* Quartz primary color for buttons */
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out;
+}
+
+.custom-header-btn:hover,
+.custom-header-btn:focus {
+  color: #0056b3; /* A darker shade for interaction states */
+  outline: none; /* Remove the focus outline to match the modern style */
+}
+
+.custom-header-title {
+  font-weight: bold;
+  color: #343a40; /* Dark grey text color */
+}
+
+/* Styling the popover to match the theme */
+.popover {
+  border-radius: 0.25rem; /* Match border-radius to Quartz theme */
+}
+
+.popover-body {
+  padding: 0; /* Remove padding to allow custom styles */
+}
+
+/* Styles for the DatePicker to fill the popover */
+.react-datepicker {
+  border: none; /* Remove any default border */
+  border-radius: 0.25rem; /* Consistent border-radius with the theme */
+}
+
+.react-datepicker__month-container {
+  padding: 0.5rem; /* Spacing inside the date picker */
+}
+
+/* Styles for selected and hovered dates */
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range {
+  background-color: #007bff; /* Quartz primary color for selected days */
+  color: white;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #e9ecef; /* Quartz theme color for keyboard-selected day*/
+  color: #495057; /* Dark text for contrast */
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__day--in-selecting-range:hover,
+.react-datepicker__day--in-range:hover {
+  background-color: #e2e6ea; /* Lighter shade for hover states */
+}
+
+.react-datepicker__input-container input {
+    background: transparent;
+    /* Purple background */
+    color: white;
+    /* White text */
+    border: 2px solid white;
+    /* White border */
+    padding: 0.5rem;
+    /* Padding inside the input */
+    border-radius: 0.25rem;
+    /* Rounded corners */
+    text-align: center;
+    /* Center text */
+}

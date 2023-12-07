@@ -1,0 +1,20 @@
+/* styles.css */
+.custom-dropdown .dropdown-menu {
+
+    padding:  0; 
+  
+    background-color: #e83283;
+}
+
+.custom-dropdown .dropdown-item {
+    font-size: 0.8rem;
+    /* Smaller font size for dropdown items */
+    padding: 0.25rem 1rem;
+    /* Smaller padding for dropdown items */
+    
+}
+
+.custom-dropdown .dropdown-divider {
+    margin: 0.25rem 0;
+    /* Smaller space around dividers */
+}
